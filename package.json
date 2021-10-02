@@ -1,0 +1,27 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "Ejercicio de Mercado Liebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpaul-dev/ml.git"
+  },
+  "keywords": [
+    "DH",
+    "ML"
+  ],
+  "author": "German I. Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpaul-dev/ml/issues"
+  },
+  "homepage": "https://github.com/gpaul-dev/ml#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
