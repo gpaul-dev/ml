@@ -94,7 +94,7 @@ main section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
+    align-content: center;
     width: 90%;
 }
 
@@ -104,7 +104,7 @@ main section h2{
 
 main section article{
     background-color: white;
-    width: 800%;
+    width: 80%;
     border: 1px solid #ebebeb;
     margin:5px;
     padding: 15px;
@@ -115,21 +115,31 @@ main section article img{
 }
 
 .precio{
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 12px;
+    width:30%;
 }
 
 .descuento{
-    font-size: 16px;
+    font-size: 10px;
+    color: #39b54a;
+    line-height:10px;
+    width:70%;
 }
 
 .descripcion{
     font-size:16px;
+    display: none;
 }
 
-@media (min-width:576px) {
-    #home-banner{
-        display:none;
-    }
+.precioydescuento{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width:361px) {
+
 
     header section{
         width:30%;
@@ -145,10 +155,27 @@ main section article img{
 
     main section article{
         width: 40%;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    main section article img{
+        width:100px;
+    }
+
+    .precio{
+        font-size: 18px;
+    }
+
+    .descuento{
+        font-size: 16px;
+    }
+
+    .descripcion{
+        display: inline;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     main section article{
         width:20%;
     }
