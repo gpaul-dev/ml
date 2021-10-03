@@ -49,6 +49,8 @@ header section{
 
 .header-nav h4{
     display:inline;
+    font-size: 10px;
+    line-height: 14px;
 }
 
 header nav{
@@ -138,6 +140,29 @@ main section article img{
     align-items: center;
 }
 
+footer section{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer section article{
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer section article i{
+
+    width:35px;
+    background-color: blue;
+    color:white;
+    display:block;
+}
+
 @media (min-width:361px) {
 
 
@@ -176,6 +201,9 @@ main section article img{
 }
 
 @media (min-width: 769px) {
+    header nav h4{
+        font-size: 22px;
+    }
     main section article{
         width:20%;
     }
