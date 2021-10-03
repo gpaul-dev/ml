@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
+    font-family: roboto;
+
 }
+
 header {
     width:100vw;
     background-color: #eac926;
@@ -82,24 +85,45 @@ header nav .right{
 
 main{
     background-color: lightgray;
+    width:90%;
+    margin:auto;
 
 }
 
 main section{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-around;
     width: 90%;
 }
 
+main section h2{
+    font-size: 24px;
+}
+
 main section article{
     background-color: white;
-    width: 80%;
+    width: 800%;
+    border: 1px solid #ebebeb;
+    margin:5px;
+    padding: 15px;
 }
 
 main section article img{
-    width: 260px;
+    width: 150px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size:16px;
 }
 
 @media (min-width:576px) {
@@ -124,8 +148,8 @@ main section article img{
     }
 }
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
     main section article{
-        width:15%;
+        width:20%;
     }
 }
