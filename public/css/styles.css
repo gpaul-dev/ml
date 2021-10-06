@@ -7,6 +7,9 @@
 header {
     width:100vw;
     background-color: #eac926;
+    position: fixed;
+    top:0px;
+    
 }
 
 header section{
@@ -37,6 +40,7 @@ header section{
 #home-banner img{
 
     width: 100%;
+    margin-top: 50px;
 }
 .header-nav input{
     width: 80%;
