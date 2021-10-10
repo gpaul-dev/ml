@@ -100,14 +100,19 @@ header nav .right{
 main{
     background-color: lightgray;
     width:90%;
+    margin: auto ;
+    margin-bottom: 5%;
+
 }
+
 
 main section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     width: 90%;
+    margin: auto;
 }
 
 main section h2{
@@ -136,7 +141,7 @@ main section h2{
     position:absolute;
     right:20px;
     top:-15px;
-    transition: all 500ms;
+    transition: all 250ms;
 }
 
 .producto i:hover{
@@ -211,14 +216,15 @@ main section h2{
     background-color: #0022AA;
 }
 footer{
-    padding:5%;
+    margin:auto;
+    width:90%;
 }
 
 .footer-box{
     display: flex;
     justify-content: flex-start;
     flex-flow: column;
-    align-items: center;
+    align-items: space-between;
     flex-wrap: wrap;
     width:100%;
 }
@@ -285,6 +291,10 @@ footer{
 @media (min-width: 769px) {
     header nav h4{
         font-size: 22px;
+    }
+
+    main {
+        height:720px;
     }
     .producto{
         width:20%;
